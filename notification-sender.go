@@ -56,7 +56,7 @@ func getNotificationFromFlags() Notification {
 	notification.Ping = *pingPtr
 	notification.ImageUrl = *imageUrlPtr
 
-	return notification	
+	return notification
 }
 
 func main() {
